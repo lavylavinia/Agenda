@@ -1,0 +1,15 @@
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/Agenda
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/Agenda.deps.json
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/Agenda.runtimeconfig.json
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/Agenda.dll
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/Agenda.pdb
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.csproj.AssemblyReference.cache
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.AssemblyInfoInputs.cache
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.AssemblyInfo.cs
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.csproj.CoreCompileInputs.cache
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.dll
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/refint/Agenda.dll
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.pdb
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.genruntimeconfig.cache
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/ref/Agenda.dll
