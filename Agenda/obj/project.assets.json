@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "LibrarieModele/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "NivelStocareDate": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibrarieModele.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibrarieModele.dll": {}
+        }
+      },
+      "NivelStocareDate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/NivelStocareDate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NivelStocareDate.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LibrarieModele/1.0.0": {
+      "type": "project",
+      "path": "../LibrarieModele/LibrarieModele.csproj",
+      "msbuildProject": "../LibrarieModele/LibrarieModele.csproj"
+    },
+    "NivelStocareDate/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement/NivelStocareDate.csproj",
+      "msbuildProject": "../TaskManagement/NivelStocareDate.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "LibrarieModele >= 1.0.0",
+      "NivelStocareDate >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/hatneanlavinia/.nuget/packages/": {}
@@ -32,7 +70,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/LibrarieModele.csproj": {
+              "projectPath": "/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/LibrarieModele.csproj"
+            },
+            "/Users/hatneanlavinia/Documents/Agenda/TaskManagement/NivelStocareDate.csproj": {
+              "projectPath": "/Users/hatneanlavinia/Documents/Agenda/TaskManagement/NivelStocareDate.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

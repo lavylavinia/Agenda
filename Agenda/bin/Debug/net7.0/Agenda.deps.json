@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Agenda/1.0.0": {
+        "dependencies": {
+          "LibrarieModele": "1.0.0",
+          "NivelStocareDate": "1.0.0"
+        },
         "runtime": {
           "Agenda.dll": {}
+        }
+      },
+      "LibrarieModele/1.0.0": {
+        "dependencies": {
+          "NivelStocareDate": "1.0.0"
+        },
+        "runtime": {
+          "LibrarieModele.dll": {}
+        }
+      },
+      "NivelStocareDate/1.0.0": {
+        "runtime": {
+          "NivelStocareDate.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Agenda/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibrarieModele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NivelStocareDate/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

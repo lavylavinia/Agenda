@@ -1,0 +1,12 @@
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/bin/Debug/net7.0/NivelStocareDate.deps.json
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/bin/Debug/net7.0/NivelStocareDate.dll
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/bin/Debug/net7.0/NivelStocareDate.pdb
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.csproj.AssemblyReference.cache
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.AssemblyInfoInputs.cache
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.AssemblyInfo.cs
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.csproj.CoreCompileInputs.cache
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.dll
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/refint/NivelStocareDate.dll
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/NivelStocareDate.pdb
+/Users/hatneanlavinia/Documents/Agenda/TaskManagement/obj/Debug/net7.0/ref/NivelStocareDate.dll

@@ -13,3 +13,8 @@
 /Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.pdb
 /Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.genruntimeconfig.cache
 /Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/ref/Agenda.dll
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/LibrarieModele.dll
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/NivelStocareDate.dll
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/LibrarieModele.pdb
+/Users/hatneanlavinia/Documents/Agenda/Agenda/bin/Debug/net7.0/NivelStocareDate.pdb
+/Users/hatneanlavinia/Documents/Agenda/Agenda/obj/Debug/net7.0/Agenda.csproj.CopyComplete

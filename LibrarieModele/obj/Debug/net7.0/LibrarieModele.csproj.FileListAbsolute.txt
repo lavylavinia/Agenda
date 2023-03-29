@@ -1,0 +1,15 @@
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/bin/Debug/net7.0/LibrarieModele.deps.json
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/bin/Debug/net7.0/LibrarieModele.dll
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/bin/Debug/net7.0/LibrarieModele.pdb
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/bin/Debug/net7.0/NivelStocareDate.dll
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/bin/Debug/net7.0/NivelStocareDate.pdb
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.csproj.AssemblyReference.cache
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.AssemblyInfoInputs.cache
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.AssemblyInfo.cs
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.csproj.CoreCompileInputs.cache
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.csproj.CopyComplete
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.dll
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/refint/LibrarieModele.dll
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/LibrarieModele.pdb
+/Users/hatneanlavinia/Documents/Agenda/LibrarieModele/obj/Debug/net7.0/ref/LibrarieModele.dll

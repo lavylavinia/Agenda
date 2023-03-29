@@ -1,4 +1,7 @@
 ﻿<Properties StartupConfiguration="{E5E5E49E-1661-4E75-B83F-1F076E6866A1}|Default">
+  <MonoDevelop.Ide.ItemProperties.NivelStocareDate FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.LibrarieModele FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Agenda FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Agenda PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
