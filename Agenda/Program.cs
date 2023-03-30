@@ -29,40 +29,35 @@ namespace Agenda
                 switch (optiune.ToUpper())
                 {
                     case "I":
-                        int ID = nrtasks + 1;
-                        Console.WriteLine("Introdu task-ul {0} : ", ID);
-                        string ToDo = Console.ReadLine();
-                        Console.WriteLine("Introdu deadline-ul task-ului {0} : ", ID);
-                        string deadline = Console.ReadLine();
-                        task = new LibrarieModele.Task(ID, ToDo, deadline);
-                        nrtasks++;
-                        // task = CitireTaskTastatura();
+                        task = CitireTaskTastatura();
                         break;
 
                     case "A":
-                        string infoTask = task.TaskInfo();
-                        Console.WriteLine("{0} {1}", nrtasks, infoTask);
-
+                        AfisareTask(task);
                         break;
 
                     case "F":
-                        ID = nrtasks + 1;
+                        
                         nrtasks++;
-                        Task[] tasks = new Task[20];
-                        //  AfisareListaTaskuri(tasks, nrtasks);
+                       Task[] tasks = new Task[20];
+                       // tasks= File.ReadLines(FilePath);
+                       // AfisareListaTaskuri(tasks, nrtasks);
 
                         break;
 
                     case "S":
-                        ID = nrtasks++;
+
                         nrtasks++;
                         var linecount = File.ReadAllLines(FilePath).Count();
 
                         var sw = new StreamWriter(FilePath);
-                        for (int i = linecount; i < 5; i++)
-                            sw.WriteLine(task);
+                        //for (int i = linecount; i < 5; i++)
+                          //  sw.WriteLine(task);
                         // sw.WriteLine(task);
-
+                        int id = nrtasks + 1;
+                        task.SetIdStudent(id);
+                        sw.WriteLine(task);
+                        nrtasks++;
 
                         break;
                     case "C":
@@ -71,9 +66,9 @@ namespace Agenda
                         {
                             string[] items = line.Split(' ');
                             task = new LibrarieModele.Task(Convert.ToInt32(items[0]), items[1], items[2]);
-                            nrtasks++;
+                           
                         }
-
+                        
                         break;
 
                     case "X":
@@ -87,6 +82,15 @@ namespace Agenda
             Console.ReadKey();
 
         }
+        public static void AfisareTask(LibrarieModele.Task task)
+        {
+            string infoStudent = string.Format("Task-ul cu id-ul #{0} este: {1} {2}",
+                   task.GetId(),
+                   task.GetToDo() ?? " NECUNOSCUT ",
+                   task.GetDeadline() ?? " NECUNOSCUT ");
+
+            Console.WriteLine(infoStudent);
+        }
 
 
         public static void AfisareListaTaskuri(LibrarieModele.Task[] tasks, int nrtasks)
@@ -99,7 +103,7 @@ namespace Agenda
                    tasks[contor].GetToDo() ?? " NECUNOSCUT ",
                    tasks[contor].GetDeadline() ?? " NECUNOSCUT ");
 
-                Console.WriteLine(infoTask);
+                AfisareTask(tasks[contor]);
 
             }
 
