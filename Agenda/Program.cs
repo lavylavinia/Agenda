@@ -37,11 +37,11 @@ namespace Agenda
                         break;
 
                     case "F":
-                        
+
                         nrtasks++;
-                       Task[] tasks = new Task[20];
-                       // tasks= File.ReadLines(FilePath);
-                       // AfisareListaTaskuri(tasks, nrtasks);
+                        Task[] tasks = new Task[20];
+                        // tasks= File.ReadLines(FilePath);
+                        // AfisareListaTaskuri(tasks, nrtasks);
 
                         break;
 
@@ -52,7 +52,7 @@ namespace Agenda
 
                         var sw = new StreamWriter(FilePath);
                         //for (int i = linecount; i < 5; i++)
-                          //  sw.WriteLine(task);
+                        //  sw.WriteLine(task);
                         // sw.WriteLine(task);
                         int id = nrtasks + 1;
                         task.SetIdStudent(id);
@@ -66,9 +66,9 @@ namespace Agenda
                         {
                             string[] items = line.Split(' ');
                             task = new LibrarieModele.Task(Convert.ToInt32(items[0]), items[1], items[2]);
-                           
+
                         }
-                        
+
                         break;
 
                     case "X":
